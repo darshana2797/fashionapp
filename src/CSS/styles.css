@@ -1,0 +1,119 @@
+.mainContainer {
+  display: flex;
+  width: 100%;
+  height: 100vw;
+}
+
+.card {
+  max-width: 70vw;
+  margin-top: 30vh;
+  border-radius: 0 !important;
+  padding: 25px 50px;
+}
+
+.submitButton {
+  background-color: #36b863;
+}
+
+.form-control {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #000000 !important;
+}
+
+.card-body {
+  padding: 0 100px !important;
+}
+.table-responsive {
+  width: 70% !important;
+  margin-top: 10vh;
+}
+
+.table {
+  background-color: #ffffff;
+}
+td {
+  vertical-align: "center";
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+td p {
+  vertical-align: "center";
+  font-size: 14px;
+  font-weight: 500;
+  color: #0f4abb;
+}
+th,
+.boldBlackSmall {
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+.marginTopThirty {
+  margin-top: 30vh;
+}
+h1 {
+  color: #ffffff;
+}
+.btn-warning,
+.btn-warning:hover {
+  color: #ffffff;
+  border-radius: 0 !important;
+}
+.profileImage {
+  border-radius: 80px;
+}
+.detailsSection {
+  margin-top: 5vh;
+  border-top: #000000;
+}
+h6,
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.detailHeading {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.detailsRow {
+  margin-top: 2vh;
+}
+.productCardBody {
+  padding: 0 !important;
+}
+.productCardImage {
+  height: 250px;
+  width: 200px;
+}
+.productCard {
+  margin: 20px;
+}
+.productCardTitle {
+  margin-top: 15px;
+}
+.filterCard {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 70vw;
+    margin-top: 30vh;
+    border-radius: 0 !important;
+    padding: 0 !important;
+  }
+  .card-body {
+    padding: 20px 20px !important;
+  }
+  .productCard {
+    margin: 20px;
+  }
+}
